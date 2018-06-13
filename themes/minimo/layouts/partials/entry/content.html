@@ -1,0 +1,9 @@
+<div class='container entry-content'>
+  {{ .Content }}
+  {{/* range first 10 .Data.Pages */}}
+  {{ range where .Data.Pages "Section" "podcasts" }}
+  <div class='container sep-before'>
+  {{ .Content }}
+  </div>
+  {{ end }}
+</div>

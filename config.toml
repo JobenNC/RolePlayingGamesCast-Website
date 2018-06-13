@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "The Role Playing GamesCast"
+title = "Role Playing GamesCast"
+#theme = "hugo_theme_beg"
+theme = "minimo"
+uglyurls = false
