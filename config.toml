@@ -1,6 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "http://roleplayinggamescast.com/"
 languageCode = "en-us"
 title = "Role Playing GamesCast"
 #theme = "hugo_theme_beg"
-theme = "minimo"
+#theme = "hugo-theme-pixyll"
+#theme = "hugo-base16-theme"
+theme = "RPGC"
+#theme = "after-dark"
+#theme = "minimo"
 uglyurls = false
+
+[params]
+  navTitle = "Home"

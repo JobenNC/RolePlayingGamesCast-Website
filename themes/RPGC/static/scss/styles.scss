@@ -1,0 +1,28 @@
+$headerColor: black;
+$backgroundColor: #2d2d2d;
+$headerColor: gray;
+$bootStrapGray: rgba(255,255,255,.5);
+
+body {
+    background-color: $backgroundColor;
+
+    color: white;
+}
+
+h1 {
+}
+
+.headline {
+    color: purple;
+
+    a {
+        color: purple;
+    }
+}
+
+#siteNav {
+}
+
+.colorHeader {
+    color: orange;
+}

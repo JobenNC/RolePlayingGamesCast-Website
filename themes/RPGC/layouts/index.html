@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+
+            <div class="container text-justify mb-5">
+                {{/* {{ .Content }} */}}
+                <div class="row justify-content-center">
+                    <div class="col-8 pb-4">
+
+                        <div class="container text-center">
+                            <h1 class="mb-5 colorHeader">Welcome to the Role Playing GamesCast!</h1>
+                        </div>
+
+                        <p>Play along with Tony and Joe as we work our way through some of the RPG classics of the 90's and early 2000's.</p>
+
+                        <div class="mb-5"></div>
+
+                        <div class="container text-center border border-dark border-top-0 border-right-0 border-left-0 mb-5">
+                            <h2 class="mb-5 colorHeader">RECENT EPISODES</h2>
+                        </div>
+                        {{ range first 3 (where .Data.Pages "Section" "podcasts") }}
+                            {{ partial "article-list-item.html" . }}
+                        {{ end }}
+
+                        <div class="mt-5 container text-center border border-dark border-top-0 border-right-0 border-left-0 mb-5">
+                            <h2 class="mb-5 colorHeader">RECENT BLOG POSTS</h2>
+                        </div>
+                        {{ range first 3 (where .Data.Pages "Section" "blogs") }}
+                            {{ partial "article-list-item.html" . }}
+                        {{ end }}
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

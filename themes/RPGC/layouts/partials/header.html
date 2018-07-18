@@ -1,0 +1,35 @@
+<div class="mb-5">
+</div>
+
+
+<div class="container text-center border border-dark border-top-0 border-right-0 border-left-0 mb-5" id="siteHeader">
+    <!-- Different sized headers for mobile -->
+    <img class="img-fluid mb-5" src="{{ "RPG-Logo-Header.png" | relURL }}" />
+
+    <!--TODO: https://stackoverflow.com/questions/21465618/is-it-possible-to-use-twitter-bootstraps-navbar-fix-to-top-only-on-mobile-devic -->
+    <nav class="navbar navbar-expand-md navbar-dark" id="siteNav">
+        <!-- <a class="navbar-brand d-md-none" href="#">Home</a> -->
+        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNav">
+            <ul class="navbar-nav container justify-content-between">
+                <li class="nav-item">
+                    <a class="nav-link" href={{"./" | absURL}}>HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href={{"./blogs" | absURL}}>BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href={{"./podcasts" | absURL}}>PODCAST</a>
+                </li>
+                <li class="navr-item">
+                    <a class="nav-link" href={{"./about" | absURL}}>ABOUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="mb-5">
+</div>

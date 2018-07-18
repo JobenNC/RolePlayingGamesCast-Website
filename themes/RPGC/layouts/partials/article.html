@@ -1,0 +1,38 @@
+{{ $page := .Page }}
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+{{ if not .Page.Date.IsZero }}
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+{{ end }}
+{{ with .Params.categories }}
+    <span class="key">{{ if $page.Date.IsZero }}published {{ end }}in</span>
+    <span class="val">
+{{ range . }}
+        <a href="{{ . | printf "categories/%s" | relURL }}">{{ . }}</a>
+{{ end }}
+    </span>
+{{ end }}
+{{ with .Params.tags }}
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+{{ range . }}
+        <a href="{{ . | printf "tags/%s" | relURL }}">{{ . }}</a>
+{{ end }}
+    </span>
+{{ end }}
+  </div>
+  <div class="container text-center border border-dark border-top-0 border-right-0 border-left-0 mb-5">
+    <h1 class="colorHeader" itemprop="headline">{{ .Title }}</h1>
+  </div>
+  <section class="body" itemprop="articleBody">
+    {{ .Content }}
+    <p>Links:</p>  
+    <ul>
+        <li><a href="https://roleplayinggamescast.podbean.com" target="_blank">Podbean</a></li>
+        <li><a href="https://itunes.apple.com/us/podcast/role-playing-gamescast/id1394246666?mt=2" target="_blank">iTunes</a></li>
+        <li><a href="https://play.google.com/music/listen#/ps/Iwmuphe6jrpqf7ghgg6b6tzvjvm" target="_blank">Google Play</a></li>
+    </ul>
+  </section>
+</article>
