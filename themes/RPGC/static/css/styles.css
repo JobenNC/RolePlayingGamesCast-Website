@@ -3,11 +3,17 @@ body {
   color: white; }
 
 .headline {
-  color: purple; }
+  color: #33cc33; }
   .headline a {
-    color: purple; }
+    color: #33cc33; }
+
+a {
+  color: #0099ff; }
 
 .colorHeader {
-  color: orange; }
+  color: #aa80ff; }
+
+.purpleNav {
+  color: #aa80ff; }
 
 /*# sourceMappingURL=styles.css.map */

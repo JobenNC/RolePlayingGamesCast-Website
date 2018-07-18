@@ -1,5 +1,6 @@
 <article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h3 class="headline" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} (Draft){{ end }}</a></h2>
+  <h3 class="d-none d-sm-block headline" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} (Draft){{ end }}</a></h2>
+  <h4 class="d-sm-none headline" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} (Draft){{ end }}</a></h2>
   <div class="meta">
 {{ if not .Date.IsZero }}
     <span class="key">published on</span>
