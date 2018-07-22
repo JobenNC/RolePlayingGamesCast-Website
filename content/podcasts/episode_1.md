@@ -2,6 +2,8 @@
 title: "Episode 1 - Final Fantasy VI: Part 1"
 date: 2018-06-27T20:47:54-04:00
 draft: false
+type: "podcast"
+embed: "https://www.podbean.com/media/player/7f8yh-941164?from=site&vjs=1&skin=1&fonts=Helvetica&auto=0&download=0"
 ---
 
 “Ahem... there’s SAND on my boots!"  

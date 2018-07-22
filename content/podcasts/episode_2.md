@@ -2,6 +2,8 @@
 title: "Episode 2 - Final Fantasy VI: Part 2"
 date: 2018-07-03T22:46:17-04:00
 draft: false
+type: "podcast"
+embed: "https://www.podbean.com/media/player/vkyjq-948117?from=site&vjs=1&skin=1&fonts=Helvetica&auto=0&download=0"
 ---
 
 “Why is everybody singing?"  

@@ -5,6 +5,6 @@ draft: false
 type: "about"
 ---
 
-Joe and Tony are two old college friends and lifelong video game fans. Tony's history with JRPGs from the 90's and early 2000's is extensive, while Joe mostly ignored the genre at that time.  
+Joe and Tony are two old college friends and lifelong video game fans. Tony's history with JRPGs from the 90's and early 2000's is extensive, while Joe has mostly ignored the genre.  
 
 On the Role Playing GamesCast, fond nostalgia is tempered by critical fresh looks as we dive deep into some of Video Games' all-time classics.

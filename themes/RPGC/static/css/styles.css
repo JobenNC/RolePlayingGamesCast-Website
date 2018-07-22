@@ -1,6 +1,7 @@
 body {
   background-color: #2d2d2d;
-  color: white; }
+  color: white;
+  font-family: 'Raleway', sans-serif; }
 
 .headline {
   color: #33cc33; }
@@ -15,5 +16,8 @@ a {
 
 .purpleNav {
   color: #aa80ff; }
+
+.authorText {
+  color: #33cc33; }
 
 /*# sourceMappingURL=styles.css.map */
